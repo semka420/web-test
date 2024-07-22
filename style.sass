@@ -1,0 +1,495 @@
+*
+    padding: 0
+    margin: 0
+    border: 0
+
+*, *before, *after
+    -moz-box-sizing: border-box
+    -webkit-box-sizing: border-box
+    box-sizing: border-box
+
+:focus, :active
+    outline: none
+
+a:focus, a:active
+    outline: none
+
+nav, footer, header, aside
+    display: block
+
+html, body
+    height: 100%
+    width: 100%
+    font-size: 100%
+    line-height: 1
+    font-size: 14px
+    -ms-text-size-adjust: 100%
+    -moz-text-size-adjust: 100%
+    -webkit-text-size-adjust: 100%
+
+input, button, textarea
+    font-family: inherit
+
+input::-ms-clear
+    display: none
+
+button
+    cursor: pointer
+
+button::-moz-focus-inner
+    padding: 0
+    border: 0
+
+a, a:visited
+    text-decoration: none
+
+a:hover
+    text-decoration: none
+
+ul li
+    list-style-type: none
+
+img
+    vertical-align: top
+
+h1, h2, h3, h4, h5, h6
+    font-style: inherit
+    font-weight: 400
+/***************************************/
+
+body
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+.container
+    max-width: 1168px
+    margin: 0 auto
+    border-top: none
+    border-bottom: none
+    
+.wrapper
+    min-height: 100%
+    display: flex
+    flex-direction: column
+    overflow: hidden
+
+.header
+    padding: 50px 0 0 0
+    background-color: #FFF0EE
+
+.header__logo
+    display: flex
+    align-items: center
+
+.header__logo-png
+    width: 38px
+    height: 38px
+    margin: 0 14px 0 0 
+    
+.header__box
+    display: flex
+    justify-content: space-between
+    padding: 30px 40px 30px 40px
+    background-color: #fff
+    
+
+.header__logo-text
+    font-size: 18px
+    line-height: 27px
+    font-weight: 600
+    font-family: Poppins
+
+.header__menu
+    display: flex
+    align-items: center
+    font-size: 16px
+
+.menu
+    display: flex
+
+.menu__item
+    margin: 0 46px 0 0 
+    color: #000
+    opacity: 0.5
+    &:first-child
+        color: #FE5E44
+        opacity: 1
+
+.button
+    display: inline-block
+    padding: 10px 20px
+    background-color: #FE5E44
+    border-radius: 5px
+    color: #fff
+
+.button__download
+    color: #fff
+
+.button__arrow 
+    margin: 0 0 0 18px
+
+.header__content-box
+    display: flex
+    justify-content: space-between
+    background-color: #faf5f5
+    padding: 86px 0
+
+.header__content-info
+    padding: 0 60px 0 0
+
+h1, h2
+    font-size: 48px
+    line-height: 60px
+    font-family: "Patua One", serif
+    font-weight: 400
+    color: #0E144A
+    margin: 0 0 15px 0
+    
+h2
+    margin: 0 0 20px 0
+    font-size: 38px
+    line-height: 52px
+
+.text
+    font-size: 16px
+    line-height: 26px
+    color: #6F6F6F
+    margin: 0 0 40px 0
+
+.header__content-img
+    padding: 20px 30px 0 0 
+
+.header__img
+    width: 579px
+
+.button__learn
+    padding: 5px 30px
+    
+
+.button__play
+    display: inline-block
+    padding: 15px 50px
+    margin: 0 0 0 10px
+    border: 1.5px solid #ffc0b6
+    background-color: #ffe6e3
+    border-radius: 5px
+
+.button__play-color
+    color: #FE5E44
+
+
+/*****************************************************************/
+
+.content
+    flex: 1 1
+
+.content__box
+    display: flex
+    align-items: center
+    padding: 100px 0
+    justify-content: space-between
+
+.content__info
+    max-width: 400px
+
+.content__text-info
+    display: inline-block
+    margin: 40px 60px 0 0 
+
+.text-info
+    color: #6F6F6F
+    text-transform: uppercase
+    font-size: 12px
+    letter-spacing: 10%
+    line-height: 14.52px
+    opacity: 0.8
+    margin: 0 0 8px 0
+
+.numbers-info
+    color: #0C1B4D
+    font-family: Inter
+    font-weight: 600
+    font-size: 24px
+    line-height: 29.05px
+
+.content__grid
+    color: #000
+    display: grid
+    grid-template-columns: 1fr 1fr
+    grid-template-rows: 1fr 1fr
+    grid-column-gap: 30px
+    grid-row-gap: 30px
+
+.grid__head
+    display: flex
+    align-items: center
+    margin: 0 0 25px 0
+
+.grid__span
+    margin: 0 0 0 20px
+    font-weight: 600
+    line-height: 28px
+
+.grid__img
+    width: 50px
+    height: 50px
+
+.grid__text
+    font-weight: 400
+    line-height: 28px
+    opacity: 0.8
+
+.grid__item
+    background-color: #FFF0EE
+    padding: 35px
+    max-width: 319px
+
+/****************CONTENT-BOX**************/
+
+.content__block
+    display: flex
+    align-items: center
+    padding: 100px 0
+    justify-content: space-between
+
+.content__block-info
+    padding: 20px
+
+.content__img-block
+    max-width: 540px
+    max-height: 679px
+
+.content__grid-item
+    background-color: #ffffff
+    padding: 0
+
+.grid__content-img
+    width: 35px
+    height: 35px
+    margin: 0 0 10px 0
+
+.content-span
+    color: #0E144A
+    font-weight: 400
+    line-height: 21.94px
+    margin: 0 0 8px 0
+    font-size: 18px
+    font-family: "Patua One", serif
+
+.content-text
+    color: #0E144A
+    opacity: 0.6
+
+
+/************************CONTENT-COLUMNS************************/
+
+.h__columns-head
+    margin: 0 auto
+    max-width: 565px
+    text-align: center
+
+.text__columns
+    font-size: 16px
+    margin: 0 auto 100px auto
+    max-width: 567px
+    text-align: center
+
+.content__columns-box
+    padding: 100px 0 
+
+.content__columns
+    background-color: #fff5f4
+
+.grid__box
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    grid-column-gap: 30px
+    margin: 0 0 100px 0
+
+.flex__column
+    padding: 47px 50px
+    display: flex
+    flex-direction: column
+    background-color: #fff
+    border-radius: 10px 0 10px 0
+
+.column__head-battom
+    font-family: IBM Plex Mono
+    font-size: 14px
+    font-weight: 600
+    line-height: 18.2px
+    letter-spacing: 0.1em
+    color: #FE5E44
+    margin: 0 0 20px 0
+
+.column__head-title
+    font-family: Patua One
+    font-size: 38px
+    font-weight: 400
+    line-height: 52px
+    color: #0C0E2B
+    margin: 0 0 5px 0
+
+.column__head-text
+    font-family: sans-serif
+    font-size: 16px
+    font-weight: 400
+    line-height: 32px
+    color: #0C0E2B
+    opacity: 0.6
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    margin: 0 0 20px 0
+
+.list li
+    background: url('../img/ok.svg') left no-repeat
+    padding: 0 0 0 35px
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-size: 16px
+    font-weight: 100
+    line-height: 32px
+    color: #191b3f
+
+.column__list
+    margin: 0 0 40px 0
+
+.column
+    display: block
+    padding: 15px 50px
+    text-align: center
+    border-radius: 5px
+
+.button__column
+    color: #fff
+
+.text__columns-top
+    font-size: 16px
+    margin: 0 auto
+    max-width: 567px
+    text-align: center
+
+/******************************CONTENT-REVIEWS***********************/
+
+.content__reviews
+    background-color: #ffebe8
+
+.content__reviews-box
+    padding: 100px 0 70px 0
+
+.reviews__grid
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    grid-column-gap: 30px
+
+.reviews__box
+    display: flex
+    flex-direction: column
+
+.reviews
+    margin: 0 0 30px 0
+    padding: 30px
+    background-color: #fff
+    border-radius: 6px
+    box-shadow: 0px 15px 30px 0px #0C0E2B0D
+
+.reviews__img
+    margin: 0 0 20px 0
+
+.reviews__text
+    font-family: Poppins
+    font-size: 14px
+    font-weight: 400
+    line-height: 26px
+    color: #0E144A
+    margin: 0 0 20px 0
+
+.reviews__avatar
+    margin: 0 20px 0 0 
+
+.reviews__name
+    font-family: Poppins
+    font-size: 16px
+    font-weight: 500
+    line-height: 24px
+
+.reviews__job
+    font-family: Poppins
+    font-size: 12px
+    font-weight: 500
+    line-height: 18px
+    color: #0E144A
+    opacity: 0.6
+
+/****************************CONTENT-STORE*************************/
+
+.content__store
+    margin: 0 0 84px 0
+
+.store__box
+    padding: 100px 170px
+
+.store__content
+    text-align: center
+
+.button__apple
+    margin: 0 15px 0 0 
+
+/****************************FOOTER********************************/
+
+footer
+    padding: 100px 140px 80px 140px
+
+.footer__grid
+    display: flex
+
+.footer__heading-text
+    font-family: "Patua One", serif
+    font-size: 18px
+    font-weight: 400
+    line-height: 21.94px
+    margin: 20px 0
+
+.heading-text-menu
+    margin: 0 0 20px 0
+
+.footer-text
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-size: 14px
+    font-weight: 400
+    line-height: 26px
+    color: #0E144A
+    opacity: 0.6
+    margin: 0 0 20px 0
+
+.footer__text
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-size: 14px
+    font-weight: 800
+    line-height: 17.6px
+    color: #0E144A
+    opacity: 0.6
+    
+.footer__column-text
+    margin: 0 30px 0 0 
+    max-width: 432px
+
+.footer__column-menu
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    grid-column-gap: 30px
+
+.menu__column
+    display: flex
+    flex-direction: column
+
+.footer__menu
+    display: flex
+    flex-direction: column
+
+.footer__menu-item
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-size: 16px
+    font-weight: 800px
+    margin: 0 0 20px 0
+    color: #0C1B4D
+    opacity: 0.6
+    &:last-child
+        margin: 0
